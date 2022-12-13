@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "mdolce-nucampreactnative",
-    "slug": "mdolce-nucampreactnative",
+    "name": "nucampsite",
+    "slug": "nucampsite",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -28,12 +28,6 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "13270260-72eb-45bd-8c57-c86d6600fa9b"
-      }
-    },
-    "owner": "mrsdo"
+    }
   }
 }

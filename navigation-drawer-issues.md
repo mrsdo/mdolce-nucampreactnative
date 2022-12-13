@@ -51,15 +51,45 @@ To resolve the issue, I deleted to package-lock.json file, then removed all dece
 > - Working Dependencies
 
 ```packages.json
-   "dependencies": {
-    "@react-navigation/drawer": "^6.5.3",
-    "@react-navigation/native": "^6.0.16",
-    "@react-navigation/stack": "^6.3.7",
-    "expo": "~47.0.8",
-    "expo-status-bar": "~1.4.2",
+{
+  "name": "mdolce-nucampreactnative",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@babel/core": "^7.20.5",
+    "@react-native-masked-view/masked-view": "^0.2.8",
+    "@react-navigation/drawer": "^6.1.1",
+    "@react-navigation/native": "^6.1.0",
+    "@react-navigation/stack": "^6.3.8",
+    "@rneui/base": "^4.0.0-rc.7",
+    "@rneui/themed": "^4.0.0-rc.7",
+    "expo": "^47.0.8",
+    "expo-constants": "^14.0.2",
+    "expo-status-bar": "^1.4.2",
+    "install": "^0.13.0",
     "react": "18.1.0",
+    "react-dom": "18.1.0",
     "react-native": "0.70.5",
     "react-native-elements": "^3.4.2",
-    "react-native-reanimated": "~2.13.0"
+    "react-native-gesture-handler": "^2.8.0",
+    "react-native-reanimated": "~2.12.0",
+    "react-native-safe-area-context": "^4.4.1",
+    "react-native-screens": "^3.0.0",
+    "react-native-web": "^0.18.10"
   },
+  "devDependencies": {
+    "@babel/core": "^7.20.5"
+  },
+  "private": true
+}
 ```
+
+During workshop for week-01, was able to work with instructor to update package.json with
+the appropropriate dependencies.
+````

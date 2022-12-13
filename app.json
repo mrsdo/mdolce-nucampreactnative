@@ -28,6 +28,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "13270260-72eb-45bd-8c57-c86d6600fa9b"
+      }
+    },
+    "owner": "mrsdo"
   }
 }
